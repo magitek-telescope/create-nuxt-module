@@ -1,5 +1,6 @@
 {
   "name": "create-nuxt-module",
+  "description": "Create Nuxt.js Module in seconds.",
   "version": "0.1.0",
   "main": "index.js",
   "repository": "ssh://git@github.com/potato4d/create-nuxt-module.git",
