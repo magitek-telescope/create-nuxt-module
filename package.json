@@ -10,6 +10,10 @@
     "email": "mail@potato4d.me",
     "url": "https://potato4d.me"
   },
+  "scripts": {
+    "start": "node cli.js",
+    "format": "prettier ./**/*.{js,ts,vue,json} --write"
+  },
   "license": "MIT",
   "dependencies": {
     "minimist": "^1.2.0",
