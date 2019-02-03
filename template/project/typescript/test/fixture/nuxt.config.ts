@@ -4,10 +4,10 @@ const optionConfig = {
 
 }
 
-module.exports = {
+export default {
   rootDir: resolve(__dirname, '../..'),
   srcDir: __dirname,
   modules: ['~/../../lib/module'],
-  '<%= name %>': optionConfig,
+  'kjs15': optionConfig,
   dev: process.env.NODE_ENV !== 'test' && process.env.NODE_ENV === 'production'
 }

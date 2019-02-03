@@ -14,12 +14,12 @@
   "license": "MIT",
   "scripts": {
     "dev": "nuxt test/fixture",
-    "test": "jest",
+    "test": "NODE_ENV=test jest",
     "build": "tsc",
     "watch": "tsc --watch",
-    "test:unit": "jest --testRegex \"/test/unit/(.+)\\.test\\.js$\"",
-    "test:system": "jest --testRegex \"/test/system/(.+)\\.test\\.js$\"",
-    "test:coverage": "yarn test --coverage",
+    "test:unit": "NODE_ENV=test jest --testRegex \"/test/unit/(.+)\\.test\\.js$\"",
+    "test:system": "NODE_ENV=test jest --testRegex \"/test/system/(.+)\\.test\\.js$\"",
+    "test:coverage": "NODE_ENV=test yarn test --coverage",
     "format": "prettier './**/*.{js,ts,json,vue}' --write"
   },
   "devDependencies": {

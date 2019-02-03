@@ -1,18 +1,18 @@
+import config from '../fixture/nuxt.config'
+
 const puppeteer = require('puppeteer')
 const request = require('request-promise-native')
-
 const { Nuxt, Builder } = require('nuxt')
-const config = require('../fixture/nuxt.config')
 
-const url = path => `http://localhost:3000${path}`
-const get = path => request(url(path))
+const url = (path: string) => `http://localhost:3000${path}`
+const get = (path: string) => request(url(path))
 
 jest.setTimeout(10000)
 
 describe('module E2E test', () => {
-  let nuxt
+  let nuxt: any
   let page
-  let browser
+  let browser: any
 
   beforeAll(async () => {
     nuxt = new Nuxt(config)
