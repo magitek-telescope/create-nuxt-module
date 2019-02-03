@@ -8,5 +8,11 @@
     "email": "mail@potato4d.me",
     "url": "https://potato4d.me"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "sao": "^0.22.5",
+    "superb": "^3.0.0",
+    "validate-npm-package-name": "^3.0.0"
+  }
 }
