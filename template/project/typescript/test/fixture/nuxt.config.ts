@@ -6,6 +6,6 @@ export default {
   rootDir: resolve(__dirname, '../..'),
   srcDir: __dirname,
   modules: ['~/../../lib/module'],
-  kjs15: optionConfig,
+  '<%= name %>': optionConfig,
   dev: process.env.NODE_ENV !== 'test' && process.env.NODE_ENV === 'production'
 }
