@@ -1,0 +1,12 @@
+{
+  "name": "create-nuxt-module",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/potato4d/create-nuxt-module.git",
+  "author": {
+    "name": "HANATANI Takuma(@potato4d)",
+    "email": "mail@potato4d.me",
+    "url": "https://potato4d.me"
+  },
+  "license": "MIT"
+}
