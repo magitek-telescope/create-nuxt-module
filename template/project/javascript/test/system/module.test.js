@@ -36,7 +36,8 @@ describe('module E2E test', () => {
     await nuxt.close()
   })
 
-  test('on Server', () => {
+  test('WIP', () => {
     // TODO: write test
+    expect(true).toBe(true)
   })
 })

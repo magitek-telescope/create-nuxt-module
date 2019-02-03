@@ -1,9 +1,9 @@
 {
-  "name": "{{name}}",
+  "name": "<%= name %>",
   "version": "0.1.0",
-  "description": "A module for Nuxt.js",
+  "description": "<%= description %>",
   "author": {
-    "name": "{{user}}"
+    "name": "<%= author %>"
   },
   "keywords": [
     "vue",
@@ -15,16 +15,24 @@
   "scripts": {
     "dev": "nuxt test/fixture",
     "test": "jest",
+    "build": "tsc",
+    "watch": "tsc --watch",
     "test:unit": "jest --testRegex \"/test/unit/(.+)\\.test\\.js$\"",
     "test:system": "jest --testRegex \"/test/system/(.+)\\.test\\.js$\"",
     "test:coverage": "yarn test --coverage",
     "format": "prettier './**/*.{js,ts,json,vue}' --write"
   },
   "devDependencies": {
+    "@types/consola": "^1.0.0",
+    "@types/jest": "^23.3.13",
+    "@types/jsdom": "^12.2.1",
+    "@types/node": "^10.12.21",
     "jest": "^23.4.1",
     "nuxt": "^2.4.0",
     "prettier": "^1.16.1",
-    "puppeteer": "^1.6.1"
+    "puppeteer": "^1.6.1",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.4"
   },
   "jest": {
     "testEnvironment": "node",

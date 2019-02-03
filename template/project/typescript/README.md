@@ -1,11 +1,11 @@
-# {{name}}
+# <%= name %>
 
-A module for Nuxt.js.
+<%= description %>
 
 ## Installation
 
 ```bash
-$ yarn add {{name}} # or npm install
+$ yarn add <%= name %> # or npm install
 ```
 
 ## Usage
@@ -13,8 +13,8 @@ $ yarn add {{name}} # or npm install
 ## Development
 
 ```bash
-$ git clone https://github.com/{{user}}/{{name}}.git
-$ cd {{name}}
+$ git clone https://github.com/<%= author %>/<%= name %>.git
+$ cd <%= name %>
 $ yarn
 ```
 
