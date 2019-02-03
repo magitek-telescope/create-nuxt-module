@@ -6,9 +6,13 @@ const optionName = 'kjs15'
 
 type TODO = any
 
-module.exports = function (this: TODO, moduleOptions: ModuleOptions) {
+module.exports = function(this: TODO, moduleOptions: ModuleOptions) {
   const consola = require('consola')
-  const options = Object.assign({}, this.options[optionName], moduleOptions || {})
+  const options = Object.assign(
+    {},
+    this.options[optionName],
+    moduleOptions || {}
+  )
   const { enabled } = options
   if (enabled === false) {
     consola.info('Skip activation of kjs15 module')

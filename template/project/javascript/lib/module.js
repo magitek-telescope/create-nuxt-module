@@ -5,7 +5,11 @@ const optionName = '<%= name %>'
 
 module.exports = function(moduleOptions) {
   const consola = require('consola')
-  const options = Object.assign({}, this.options[optionName], moduleOptions || {})
+  const options = Object.assign(
+    {},
+    this.options[optionName],
+    moduleOptions || {}
+  )
   const { enabled } = options
   if (enabled === false) {
     consola.info('Skip activation of <%= name %> module')

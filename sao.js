@@ -1,7 +1,7 @@
 const { random: superb } = require('superb')
 const glob = require('glob')
 const { join } = require('path')
-const validate = require("validate-npm-package-name")
+const validate = require('validate-npm-package-name')
 
 const rootDir = __dirname
 
@@ -16,7 +16,7 @@ const move = (from, to = '') => {
 
 const moveLanguage = (answer, to = '') => {
   console.log(`project/${answer}`)
-  return answer !== 'none' && move(`project/${answer}`, to);
+  return answer !== 'none' && move(`project/${answer}`, to)
 }
 
 module.exports = {
@@ -32,10 +32,7 @@ module.exports = {
     language: {
       message: 'Choose development language',
       type: 'list',
-      choices: [
-        'javascript',
-        'typescript'
-      ],
+      choices: ['javascript', 'typescript'],
       default: 'javascript'
     },
     author: {
@@ -57,19 +54,27 @@ module.exports = {
   },
   move(answers) {
     const validation = validate(answers.name)
-    validation.warnings && validation.warnings.forEach(warn => {
-      console.warn('Warning:', warn)
-    })
-    validation.errors && validation.errors.forEach(err => {
-      console.error('Error:', err)
-    })
+    validation.warnings &&
+      validation.warnings.forEach(warn => {
+        console.warn('Warning:', warn)
+      })
+    validation.errors &&
+      validation.errors.forEach(err => {
+        console.error('Error:', err)
+      })
     validation.errors && validation.errors.length && process.exit(1)
-    return Object.assign(
-      moveLanguage(answers.language)
-    )
+    return Object.assign(moveLanguage(answers.language))
   },
   post(
-    { npmInstall, yarnInstall, gitInit, chalk, isNewFolder, folderName, folderPath },
+    {
+      npmInstall,
+      yarnInstall,
+      gitInit,
+      chalk,
+      isNewFolder,
+      folderName,
+      folderPath
+    },
     { meta }
   ) {
     gitInit()

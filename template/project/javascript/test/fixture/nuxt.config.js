@@ -1,8 +1,6 @@
 const resolve = require('path').resolve
 
-const optionConfig = {
-
-}
+const optionConfig = {}
 
 module.exports = {
   rootDir: resolve(__dirname, '../..'),
