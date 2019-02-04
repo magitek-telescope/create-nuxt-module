@@ -1,10 +1,9 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/6993514/52175645-fe5ece00-27e9-11e9-8bdb-1c65389bf18b.png" width="128">
-</p>
 
 # Create Nuxt Module
 
 > Create Nuxt.js Module in seconds.
+
+![artboard](https://user-images.githubusercontent.com/6993514/52185458-29d1cf00-2863-11e9-93e2-3283b0ce3a2b.png)
 
 ## Installation and Usage
 
