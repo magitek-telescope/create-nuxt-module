@@ -1,9 +1,9 @@
-
 # Create Nuxt Module
 
 > Create Nuxt.js Module in seconds.
 
-![artboard](https://user-images.githubusercontent.com/6993514/52185458-29d1cf00-2863-11e9-93e2-3283b0ce3a2b.png)
+![create-nuxt-module](https://user-images.githubusercontent.com/6993514/52634439-8fc8f100-2f0a-11e9-85f9-bd5e54254059.png)
+
 
 ## Installation and Usage
 

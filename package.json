@@ -4,6 +4,7 @@
   "version": "0.2.0",
   "main": "cli.js",
   "bin": "cli.js",
+  "license": "MIT",
   "repository": "ssh://git@github.com/potato4d/create-nuxt-module.git",
   "author": {
     "name": "HANATANI Takuma(@potato4d)",
@@ -14,7 +15,6 @@
     "start": "node cli.js",
     "format": "prettier ./**/*.{js,ts,vue,json} --write"
   },
-  "license": "MIT",
   "dependencies": {
     "minimist": "^1.2.0",
     "sao": "^0.22.5",
