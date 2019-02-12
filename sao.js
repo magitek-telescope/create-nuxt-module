@@ -92,16 +92,16 @@ module.exports = {
     console.log(chalk.bold(`\tTo get started:\n`))
     cd()
     console.log(`\t ${meta.answers.pm} run dev\n`)
-    console.log(chalk.bold(`  To build & start for production:\n`))
     cd()
-    console.log(`\t ${meta.answers.pm} run build`)
-    console.log(`\t ${meta.answers.pm} start`)
-
-    if (meta.answers.test !== 'none') {
-      console.log(chalk.bold(`\n  To test:\n`))
-      cd()
-      console.log(`\t ${meta.answers.pm} run test`)
+    if (meta.answers.language === 'typescript') {
+      console.log(chalk.bold(`  To build TypeScript code:\n`))
+      console.log(`\t ${meta.answers.pm} run build`)
+      console.log(`\t ${meta.answers.pm} run watch # watch mode`)
     }
+
+    console.log(chalk.bold(`\n  To test:\n`))
+    cd()
+    console.log(`\t ${meta.answers.pm} run test`)
     console.log()
   }
 }
