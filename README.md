@@ -4,6 +4,9 @@
 
 ![create-nuxt-module](https://user-images.githubusercontent.com/6993514/52634439-8fc8f100-2f0a-11e9-85f9-bd5e54254059.png)
 
+## Demo video
+
+[![asciicast](https://asciinema.org/a/tiNoFXttMhgrYiaNpQvLDciFh.svg)](https://asciinema.org/a/tiNoFXttMhgrYiaNpQvLDciFh)
 
 ## Installation and Usage
 
