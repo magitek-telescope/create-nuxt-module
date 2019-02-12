@@ -1,7 +1,7 @@
 {
   "name": "create-nuxt-module",
   "description": "Create Nuxt.js Module in seconds.",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "cli.js",
   "bin": "cli.js",
   "license": "MIT",
