@@ -14,6 +14,8 @@ $ create-nuxt-module # or create-nuxt-module <path>
 
 ## Basic Features
 
+<img width="778" alt="screen shot 2019-02-12 at 21 13 53" src="https://user-images.githubusercontent.com/6993514/52634669-23022680-2f0b-11e9-98b7-587c0a7ab148.png">
+
 - Nuxt module basic template
   - module core (with enable flag)
   - serverMiddleware template
