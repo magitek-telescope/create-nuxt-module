@@ -8,8 +8,7 @@
 ## Installation and Usage
 
 ```
-$ npm install -g create-nuxt-module
-$ create-nuxt-module # or create-nuxt-module <path>
+$ npx create-nuxt-module # or npx create-nuxt-module <path>
 ```
 
 ## Basic Features
