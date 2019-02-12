@@ -88,6 +88,7 @@ module.exports = {
       }
     }
 
+    cd()
     console.log()
     console.log(chalk.bold(`\tTo get started:\n`))
     cd()
