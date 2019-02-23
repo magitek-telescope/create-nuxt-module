@@ -21,10 +21,10 @@
     "format": "prettier './**/*.{js,ts,json,vue}' --write"
   },
   "devDependencies": {
-    "jest": "^23.4.1",
-    "nuxt": "^2.4.0",
-    "prettier": "^1.16.1",
-    "puppeteer": "^1.6.1"
+    "jest": "23.6.0",
+    "nuxt": "2.4.3",
+    "prettier": "1.16.4",
+    "puppeteer": "1.12.2"
   },
   "jest": {
     "testEnvironment": "node",
