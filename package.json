@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "minimist": "^1.2.0",
-    "sao": "^0.22.5",
+    "sao": "^1.0.0",
     "superb": "^3.0.0",
     "validate-npm-package-name": "^3.0.0"
   },
