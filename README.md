@@ -1,3 +1,5 @@
+> 🚧 When you create a new project, use the official [module-template](https://github.com/nuxt-community/module-template). 🚧
+
 # Create Nuxt Module
 
 > Create Nuxt.js Module in seconds.
